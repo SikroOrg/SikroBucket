@@ -1,9 +1,9 @@
 {
-    "version": "5.32",
+    "version": "5.34",
     "description": "GUI client based on v2ray core",
     "homepage": "https://github.com/2dust/v2rayN",
     "license": "GPL-3.0-only",
-    "url": "https://gh.sikro.cf/https://github.com/2dust/v2rayN/releases/download/5.32/v2rayN-Core.zip",
+    "url": "https://gh.sikro.cf/https://github.com/2dust/v2rayN/releases/download/5.34/v2rayN-Core.zip",
     "extract_dir": "v2rayN-Core",
     "pre_install": [
         "# 'guiNConfig.json',",
@@ -30,9 +30,5 @@
     "persist": [
         "geoip.dat",
         "geosite.dat"
-    ],
-    "checkver": "github",
-    "autoupdate": {
-        "url": "https://gh.sikro.cf/https://github.com/2dust/v2rayN/releases/download/$version/v2rayN-Core.zip"
-    }
+    ]
 }
