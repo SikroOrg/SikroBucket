@@ -1,9 +1,15 @@
 {
-    "version": "V6.1.6.11.2",
+    "version": "6.1.6.11.2",
     "description": "foobox 是一个基于 CUI 的 foobar2000 界面配置，适合大界面使用，善于管理曲目数量大的媒体库 ，对音乐各种封面提供丰富的支持，并扩展了一些网络功能。美观高效实用是 foobox 的制作目标。",
     "homepage": "https://github.com/dream7180/foobox-cn",
     "license": "GPL-3.0-only",
     "url": "https://gh.sikro.cf/github.com/dream7180/foobox-cn/releases/download/6.1.6.11.2/foobox_6.1.6.11.2.zip#/dl.7z",
+    "hash": "989c87969722ef31274a84e5d6c32c1d632a93b353dff031b176678e91bd06d6",
+    "pre_install": [
+        "Expand-7zipArchive \"$dir\\foobox_6.1.6.11.2.exe\" \"$dir\" -Removal",
+        "Remove-Item \"$dir\\`$PLUGINSDIR\" -Recurse"
+    ],
+    "bin": "foobar2000.exe",
     "shortcuts": [
         [
             "foobar2000.exe",
@@ -12,6 +18,10 @@
     ],
     "checkver": "github",
     "autoupdate": {
-        "url": "https://gh.sikro.cf/github.com/dream7180/foobox-cn/releases/download/$version/foobox_$version.zip#/dl.7z"
+        "url": "https://gh.sikro.cf/github.com/dream7180/foobox-cn/releases/download/$version/foobox_$version.zip#/dl.7z",
+        "pre_install": [
+            "Expand-7zipArchive \"$dir\\foobox_$version.exe\" \"$dir\" -Removal",
+            "Remove-Item \"$dir\\`$PLUGINSDIR\" -Recurse"
+        ]
     }
 }

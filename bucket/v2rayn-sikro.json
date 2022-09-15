@@ -30,5 +30,12 @@
     "persist": [
         "geoip.dat",
         "geosite.dat"
-    ]
+    ],
+    "checkver": {
+        "url": "https://api.github.com/repos/2dust/v2rayN/releases",
+        "jsonpath": "$.[0].tag_name"
+    },
+    "autoupdate": {
+        "url": "https://gh.sikro.cf/https://github.com/2dust/v2rayN/releases/download/$version/v2rayN-Core.zip"
+    }
 }
