@@ -1,10 +1,10 @@
 {
-    "version": "5.35",
+    "version": "5.36",
     "description": "GUI client based on v2ray core",
     "homepage": "https://github.com/2dust/v2rayN",
     "license": "GPL-3.0-only",
-    "url": "https://gh.sikro.cf/https://github.com/2dust/v2rayN/releases/download/5.35/v2rayN-Core.zip",
-    "hash": "124b7a6409136b230057e6b4ba2699ca15db71ffb2000fe2880123392a43849f",
+    "url": "https://gh.sikro.cf/https://github.com/2dust/v2rayN/releases/download/5.36/v2rayN-Core.zip",
+    "hash": "8d57a38eb51bbe8cdea142bbf4083dc48bf0c480f601fbd6f86ada21d5b605db",
     "extract_dir": "v2rayN-Core",
     "pre_install": [
         "# 'guiNConfig.json',",
