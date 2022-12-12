@@ -5,6 +5,9 @@
     "license": "GPL-3.0-only",
     "url": "https://gh.sikro.cf/https://github.com/Fndroid/clash_for_windows_pkg/releases/download/0.20.10/Clash.for.Windows-0.20.10-win.7z#dl.7z",
     "hash": "198457c8753277c1d54fb8ea6c84d988e5a38cd3e157210dcdefe1f43fbe964c",
+    "pre_install": [
+        "Invoke-WebRequest \"https://gh.sikro.cf/https://github.com/ender-zhao/Clash-for-Windows_Chinese/releases/download/CFW-V0.20.10_CN/app.asar\" -OutFile $dir\\resources\\app.asar"
+    ],
     "bin": "Clash for Windows.exe",
     "shortcuts": [
         [
@@ -14,6 +17,9 @@
     ],
     "checkver": "github",
     "autoupdate": {
-        "url": "https://gh.sikro.cf/https://github.com/Fndroid/clash_for_windows_pkg/releases/download/$version/Clash.for.Windows-$version-win.7z#dl.7z"
+        "url": "https://gh.sikro.cf/https://github.com/Fndroid/clash_for_windows_pkg/releases/download/$version/Clash.for.Windows-$version-win.7z#dl.7z",
+        "pre_install": [
+            "Invoke-WebRequest \"https://gh.sikro.cf/https://github.com/ender-zhao/Clash-for-Windows_Chinese/releases/download/CFW-V$version_CN/app.asar\" -OutFile $dir\\resources\\app.asar"
+        ]
     }
 }
