@@ -6,7 +6,7 @@
     "url": "https://gh.sikro.cf/https://github.com/Fndroid/clash_for_windows_pkg/releases/download/0.20.24/Clash.for.Windows-0.20.24-win.7z#dl.7z",
     "hash": "6d70716075b56320a0ae386c5f834596f21ff19ff3f00f2e6e60986d432b5b8e",
     "pre_install": "Invoke-WebRequest \"https://gh.sikro.cf/https://github.com/ender-zhao/Clash-for-Windows_Chinese/releases/download/CFW-V0.20.24_CN/app.asar\" -OutFile $dir\\resources\\app.asar",
-    "bin": "Clash for Windows.exe",
+    "bin": "clash.exe",
     "shortcuts": [
         [
             "Clash for Windows.exe",
