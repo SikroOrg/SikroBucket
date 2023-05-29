@@ -28,7 +28,12 @@
             ]
         }
     },
-    "bin": "PotPlayer64.exe",
+    "bin": [
+        [
+            "PotPlayer64.exe",
+            "potplayer"
+        ]
+    ],
     "pre_install": [
         "Remove-Item \"$dir\\`$*\" -Force -Recurse",
         "$CONT = @(",
