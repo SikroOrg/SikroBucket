@@ -1,11 +1,11 @@
 {
-    "version": "0.20.25",
+    "version": "0.20.26",
     "description": "Clash for Windows",
     "homepage": "https://github.com/Fndroid/clash_for_windows_pkg",
     "license": "GPL-3.0-only",
-    "url": "https://gh.sikro.cf/https://github.com/Fndroid/clash_for_windows_pkg/releases/download/0.20.25/Clash.for.Windows-0.20.25-win.7z#dl.7z",
-    "hash": "a814b52dcb2ee12951476a0baaf8b30eb0024fcabc047a9543248252369ab54f",
-    "pre_install": "Invoke-WebRequest \"https://gh.sikro.cf/https://github.com/Z-Siqi/Clash-for-Windows_Chinese/releases/download/CFW-V0.20.25_CN/app.asar\" -OutFile $dir\\resources\\app.asar",
+    "url": "https://gh.sikro.cf/https://github.com/Fndroid/clash_for_windows_pkg/releases/download/0.20.26/Clash.for.Windows-0.20.26-win.7z#dl.7z",
+    "hash": "b056c6c36b7485c1f553840516082b98785d5b444ee6b0d8c11270e80f09e8a5",
+    "pre_install": "Invoke-WebRequest \"https://gh.sikro.cf/https://github.com/Z-Siqi/Clash-for-Windows_Chinese/releases/download/CFW-V0.20.26_CN/app.asar\" -OutFile $dir\\resources\\app.asar",
     "shortcuts": [
         [
             "Clash for Windows.exe",
