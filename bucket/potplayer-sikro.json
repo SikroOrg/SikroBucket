@@ -9,7 +9,6 @@
     "architecture": {
         "64bit": {
             "url": "https://t1.daumcdn.net/potplayer/PotPlayer/Version/230705/PotPlayerSetup64.exe#/dl.7z",
-            "hash": "9ede23b52b7f86abaf008925dd66ed10dc6a374b9f3948e37c4821f6338dd9fb",
             "shortcuts": [
                 [
                     "PotPlayer64.exe",
@@ -19,7 +18,6 @@
         },
         "32bit": {
             "url": "https://t1.daumcdn.net/potplayer/PotPlayer/Version/230705/PotPlayerSetup.exe#/dl.7z",
-            "hash": "b55b31a96cae54ebb5dd3f061f289ca3c5b34d3244256b75ac1b03dd339fc5e4",
             "shortcuts": [
                 [
                     "PotPlayer.exe",
@@ -43,7 +41,7 @@
         "    'FastAutoUpdate=0'",
         ")",
         "    # Set Configs for all executables",
-        "foreach ($f in @('PotPlayerMini64.ini', 'PotPlayerMini.ini', 'PotPlayer64.ini', 'PotPlayer.ini')) {",
+        "foreach ($f in @('PotPlayer64.ini')) {",
         "    if (-not (Test-Path \"$persist_dir\\$f\")) {",
         "        Write-Host 'File' $f 'does not exists. Creating' -f Yellow",
         "        Set-Content \"$dir\\$f\" $CONT -Encoding Ascii",
