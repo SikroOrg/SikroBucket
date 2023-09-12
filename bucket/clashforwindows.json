@@ -1,10 +1,10 @@
 {
-    "version": "0.20.31",
+    "version": "0.20.34",
     "description": "Clash for Windows",
     "homepage": "https://github.com/Z-Siqi/Clash-for-Windows_Chinese",
     "license": "GPL-3.0-only",
-    "url": "https://gh.sikro.cf/https://github.com/Z-Siqi/Clash-for-Windows_Chinese/releases/download/CFW-V0.20.31_CN/Clash.for.Windows-0.20.31-win.7z#dl.7z",
-    "hash": "cd02c2e1899b62176ff8c966d7cb196fc7bb89d86edc734f0b2bf785265e5ba1",
+    "url": "https://gh.sikro.cf/https://github.com/Z-Siqi/Clash-for-Windows_Chinese/releases/download/CFW-V0.20.34_CN/Clash.for.Windows-0.20.34-win.7z#dl.7z",
+    "hash": "4e2e43e16f40d6d5f793b75923d18fddafc0dfc17cd81d9517485a1a89db6489",
     "shortcuts": [
         [
             "Clash for Windows.exe",
