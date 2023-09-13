@@ -9,7 +9,7 @@
     "url": "https://t1.daumcdn.net/potplayer/PotPlayer/Version/230830/PotPlayerSetup64.exe#/dl.7z",
     "shortcuts": [
         [
-            "PotPlayer.exe",
+            "PotPlayer64.exe",
             "PotPlayer"
         ]
     ],
