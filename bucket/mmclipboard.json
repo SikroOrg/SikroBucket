@@ -1,0 +1,23 @@
+{
+    "version": "1.24.227.1",
+    "description": "MMClipboard",
+    "homepage": "https://github.com/ProjectLion/MMClipboard",
+    "license": "MIT",
+    "url": "https://gh.sikro.chat/github.com/ProjectLion/MMClipboard/releases/download/1.24.227.1/MMClipboard.zip",
+    "hash": "e7bca8bd6a9fbc59757477b3aa4dc988b1128925b198da55302177d9eb097e0c",
+    "bin": "MMClipboard.exe",
+    "shortcuts": [
+        [
+            "MMClipboard.exe",
+            "MMClipboard"
+        ]
+    ],
+    "persist": "MMClipboard",
+    "checkver": {
+        "url": "https://github.com/ProjectLion/MMClipboard/releases/latest",
+        "regex": "/releases/tag/(?:v|V)?([\\d.]+)"
+    },
+    "autoupdate": {
+        "url": "https://gh.sikro.chat/github.com/ProjectLion/MMClipboard/releases/download/$version/MMClipboard.zip"
+    }
+}
